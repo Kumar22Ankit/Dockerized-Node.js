@@ -13,13 +13,6 @@ The Docker setup allows you to easily package and distribute your application wi
 - `app.js`: Main application file that sets up and runs the Node.js server.
 - `package.json`: Lists project dependencies and scripts.
 
-## Getting Started
-
-### Building the Docker Image
-To build the Docker image, run the following command in the root directory of the project where the `Dockerfile` is located:
-```bash
-docker build -t node-app .
-
 # Running the Docker Container
  docker run -p 3000:3000 node-app
 
